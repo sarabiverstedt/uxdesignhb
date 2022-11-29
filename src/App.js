@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h2>UX DESIGN APP</h2>
       <p>hej på dig</p>
+      <p>testar igen</p>
     </div>
   );
 }
