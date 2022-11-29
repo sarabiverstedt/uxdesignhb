@@ -1,10 +1,13 @@
+import Hero from "../Hero/Hero";
 import "./Homepage.css";
 
 const Homepage = () => {
     return ( 
+
         <>
-        <p>Detta är homepage</p>
+        <Hero/>
         </>
+
      );
 }
  

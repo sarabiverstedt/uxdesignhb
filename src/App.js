@@ -16,12 +16,7 @@ function App() {
   return (
     <div className="App">
 
-      <Link to="/fragor"><button className='roundButtons'>Frågor</button></Link>
-      <Link to="/tips"><button className='roundButtons' >tips</button></Link>
-      <Link to="/"><button className='roundButtons' >Homepage</button></Link>
-      
-      
-
+  
 
 
           <Routes>
@@ -36,6 +31,11 @@ function App() {
           </Routes>
 
           
+          <Link to="/fragor"><button className='roundButtons'>Frågor</button></Link>
+      <Link to="/tips"><button className='roundButtons' >tips</button></Link>
+      <Link to="/"><button className='roundButtons' >Homepage</button></Link>
+      
+      
 
 
 
