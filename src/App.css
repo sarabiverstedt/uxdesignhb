@@ -1,5 +1,35 @@
 *{
   margin: 0px;
   padding: 0px;
+  /* font-family: stratos, headline-gothic-atf, sans-serif;
+  font-style: normal;
+  font-weight: 400; */
 }
 
+:root {
+  --background: #130203;
+  --text-primary: #F9F5F5;
+  --text-secondary-sea: #A8DAEA;
+  --text-secondary-ice: #EC8394;
+  --text-secondary-warming: #F1C454;
+  --text-secondary-co2: #B29BCA;
+  --green: #9DCCAF;
+  --blue: #A8DAEA;
+  --purple: #B29BCA;
+  --pink: #EC8394;
+  --yellow: #F1C454;
+}
+
+[data-theme='light'] {
+  --background: #F9F5F5;
+  --text-primary: #130203;
+  --text-secondary-sea: #130203;
+  --text-secondary-ice: #130203;
+  --text-secondary-warming: #130203;
+  --text-secondary-co2: #130203;
+  --green: #9DCCAF;
+  --blue: #A8DAEA;
+  --purple: #B29BCA;
+  --pink: #EC8394;
+  --yellow: #F1C454;
+}
