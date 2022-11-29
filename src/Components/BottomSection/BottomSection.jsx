@@ -1,11 +1,11 @@
 import "./BottomSection.css";
 
 const BottomSection = () => {
-    return ( 
-        <>
-        
-        </>
-     );
-}
- 
+  return (
+    <>
+      
+    </>
+  );
+};
+
 export default BottomSection;
