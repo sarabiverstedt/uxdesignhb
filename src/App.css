@@ -33,3 +33,10 @@
   --pink: #EC8394;
   --yellow: #F1C454;
 }
+
+.roundButtons{
+  padding: 10px;
+  background-color: #9DCCAF;
+  border: none;
+  margin: 0px 10px 0px 10px;
+}
