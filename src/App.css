@@ -40,3 +40,8 @@
   border: none;
   margin: 0px 10px 0px 10px;
 }
+
+p {
+  size: 1rem;
+  --text-primary: #F9F5F5;
+}
