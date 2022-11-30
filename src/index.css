@@ -1,14 +1,14 @@
-@import url('https://use.typekit.net/sth4szs.css');
+@import url('https://use.typekit.net/wvv4zyg.css');
 
 body {
   margin: 0;
-  font-family: stratos, 'Roboto', 'Helvetica Neue',
+  font-family: stratos-lights, stratos, 'Roboto', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: stratos, 'Roboto', 'Helvetica Neue',
+  font-family: stratos-lights, stratos, 'Roboto', 'Helvetica Neue',
   sans-serif;
 }

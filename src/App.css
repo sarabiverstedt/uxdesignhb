@@ -1,4 +1,6 @@
 *{
+  background-color: var(--background);
+  color: var(--text-primary);
   margin: 0px;
   padding: 0px;
   /* font-family: stratos, headline-gothic-atf, sans-serif;
@@ -9,10 +11,10 @@
 :root {
   --background: #130203;
   --text-primary: #F9F5F5;
-  --text-secondary-sea: #A8DAEA;
-  --text-secondary-ice: #EC8394;
-  --text-secondary-warming: #F1C454;
-  --text-secondary-co2: #B29BCA;
+  --text-secondary-blue: #A8DAEA;
+  --text-secondary-pink: #EC8394;
+  --text-secondary-yellow: #F1C454;
+  --text-secondary-pruple: #B29BCA;
   --green: #9DCCAF;
   --blue: #A8DAEA;
   --purple: #B29BCA;
@@ -23,10 +25,10 @@
 [data-theme='light'] {
   --background: #F9F5F5;
   --text-primary: #130203;
-  --text-secondary-sea: #130203;
-  --text-secondary-ice: #130203;
-  --text-secondary-warming: #130203;
-  --text-secondary-co2: #130203;
+  --text-secondary-blue: #130203;
+  --text-secondary-pink: #130203;
+  --text-secondary-yellow: #130203;
+  --text-secondary-pruple: #130203;
   --green: #9DCCAF;
   --blue: #A8DAEA;
   --purple: #B29BCA;
@@ -43,5 +45,47 @@
 
 p {
   size: 1rem;
-  --text-primary: #F9F5F5;
+  color: var(--text-primary);
+  font-family: 'stratos-lights', 'stratos', sans-serif;
+  font-weight: 300;
 }
+
+.container {
+  max-width: 960px;
+  padding: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bigHeading {
+  font-family: headline-gothic-atf, sans-serif;
+  font-size: 4.3rem;
+  text-transform: uppercase;
+}
+
+
+.mediumHeading {
+  font-family: stratos, sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.smallHeading {
+  font-family: stratos, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.closeButton {
+  margin-left: 1rem;
+}
+
+
+
