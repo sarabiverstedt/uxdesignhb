@@ -1,11 +1,14 @@
 *{
-  background-color: var(--background);
   color: var(--text-primary);
   margin: 0px;
   padding: 0px;
   /* font-family: stratos, headline-gothic-atf, sans-serif;
   font-style: normal;
   font-weight: 400; */
+}
+
+.App {
+  background-color: var(--background);
 }
 
 :root {
@@ -20,6 +23,8 @@
   --purple: #B29BCA;
   --pink: #EC8394;
   --yellow: #F1C454;
+  --citydark: #130203;
+  --citysemidark: #48385a;
 }
 
 [data-theme='light'] {
@@ -72,15 +77,18 @@ header {
 
 
 .mediumHeading {
-  font-family: stratos, sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
 }
 
 .smallHeading {
-  font-family: stratos, sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+
+.largeText {
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .closeButton {
